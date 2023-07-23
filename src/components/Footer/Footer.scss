@@ -4,9 +4,52 @@
     background: white;
     .sec1 {
       margin: 0 auto;
+      padding: 5rem 0 1rem 0;
       width: 80%;
       display: grid;
       grid-template-columns: 2fr 1fr 1fr;
+      .left {
+        .desc {
+          padding: 1rem 0;
+          width: 60%;
+          font-family: Open Sans;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: capitalize;
+        }
+        .social {
+          display: flex;
+          width: 100%;
+          gap: 1rem;
+          padding: 1rem 0;
+          color: black;
+          justify-content: center;
+        }
+      }
+      .center {
+        h1 {
+          font-weight: 800;
+        }
+        ul {
+          margin: 1rem 0;
+          li {
+            margin: 0.6rem 0.5rem;
+          }
+        }
+      }
+      .right {
+        h1 {
+          font-weight: 800;
+        }
+        ul {
+          margin: 1rem 0;
+          li {
+            margin: 0.6rem 0.5rem;
+          }
+        }
+      }
     }
   }
   .sec2back {
