@@ -1,0 +1,147 @@
+.gallerycontain {
+  width: 80%;
+  margin: 0 auto;
+  h1 {
+    margin: 4rem 0 3rem 0;
+    font-size: xx-large;
+    font-family: Roboto;
+    text-align: center;
+  }
+  .grid-container {
+    grid-gap: 1rem;
+    display: grid;
+    gap: 0.75rem;
+    grid-template-areas:
+      "one two four"
+      "one two four-low";
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 30rem;
+    margin-top: 1.3rem;
+    .featured {
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+      .featured img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+      }
+      .main-description {
+        bottom: 1.75rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+        left: 2rem;
+        position: absolute;
+      }
+    }
+    .grid-one {
+      grid-area: one;
+      .lil-overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease-in;
+        width: 100%;
+      }
+    }
+
+    .grid-two {
+      grid-area: two;
+      .lil-overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease-in;
+        width: 100%;
+      }
+      .featured img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+      }
+      .main-description {
+        bottom: 1.75rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+        left: 2rem;
+        position: absolute;
+      }
+    }
+    .grid-four {
+      grid-area: four;
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      .lil-overlay {
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.3s ease-in;
+        width: 100%;
+      }
+      .featured img {
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+      }
+      .main-description {
+        bottom: 1.75rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+        left: 2rem;
+        position: absolute;
+      }
+    }
+    .grid-four-low {
+      grid-area: four-low;
+      a {
+        color: #000;
+        text-decoration: none;
+        .lil-overlay {
+          background-color: rgba(0, 0, 0, 0.3);
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          transition: all 0.3s ease-in;
+          width: 100%;
+        }
+        .featured img {
+          height: 100%;
+          object-fit: cover;
+          object-position: 50% 50%;
+          width: 100%;
+        }
+        .main-description {
+          font-family: Inter;
+          bottom: 1.75rem;
+          color: #fff;
+          font-size: 2rem;
+          font-weight: 400;
+          left: 2rem;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+.featured img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+}
