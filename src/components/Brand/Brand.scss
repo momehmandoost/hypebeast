@@ -1,0 +1,16 @@
+.brandcontain {
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .brandcontain {
+    grid-template-columns: 1fr 1fr;
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+}
