@@ -1,0 +1,27 @@
+.navcontain{
+    background-color: #f4f4f5;
+    padding: 2rem;
+.navbar{
+    
+    width: 80%;
+    margin: 0rem auto;
+    display: flex;
+    justify-content: space-between;
+    .right{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: baseline;
+        .account{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cart{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+}
