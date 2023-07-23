@@ -3,6 +3,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import logo from "../../assets/logo.png";
 import PersonIcon from "@mui/icons-material/Person";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
+import { Topmenu } from "./Topmenu";
 import "./Navbar.scss";
 
 export const Navbar = () => {
@@ -25,6 +26,9 @@ export const Navbar = () => {
             <span>Cart</span>
           </div>
         </div>
+      </div>
+      <div className="navbar">
+        <Topmenu />
       </div>
     </div>
   );
