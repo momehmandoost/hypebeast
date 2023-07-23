@@ -1,0 +1,36 @@
+.productcontain {
+  width: 80%;
+  margin: 3rem auto;
+
+  h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  .submenu {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .items {
+      ul {
+        font-weight: 400;
+        display: flex;
+        gap: 2rem;
+      }
+    }
+    .filter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--black, #1e2832);
+      padding: 5px 15px;
+      align-items: center;
+      color: white;
+    }
+  }
+}
