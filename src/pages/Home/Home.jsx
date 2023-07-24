@@ -5,6 +5,7 @@ import { Gallery } from "../../components/Gallery/Gallery";
 import { Allproduct } from "../../components/Allproduct/Allproduct";
 import { Banner } from "../../components/Banner/Banner";
 import { Slider } from "../../components/Slider/Slider";
+import { Newsletter } from "../../components/Newsletter/Newsletter";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <Allproduct />
       <Banner />
       <Slider />
+      <Newsletter />
     </div>
   );
 };
