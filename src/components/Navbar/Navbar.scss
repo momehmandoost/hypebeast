@@ -1,6 +1,11 @@
 .navcontain {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
+  z-index: 2000;
 
   background-color: #f4f4f5;
   padding: 2rem;
@@ -20,7 +25,7 @@
         justify-content: center;
         align-items: center;
       }
-      .cart {
+      .carticon {
         display: flex;
         justify-content: center;
         align-items: center;

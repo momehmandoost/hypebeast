@@ -1,0 +1,27 @@
+.categoriescontain {
+  min-width: 90vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  .left {
+    margin: 40px;
+    .filterItem {
+      padding: 20px;
+      h2 {
+        font-size: x-large;
+        font-weight: 600;
+        padding: 7px;
+        border-bottom: 2px solid rgb(231, 231, 231);
+      }
+      .inputItem {
+        margin: 8px;
+        .inputradio {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .right {
+    margin: 40px;
+  }
+}
