@@ -3,9 +3,11 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { Footer } from "./components/Footer/Footer";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
-import { Product } from "./pages/Product/Product";
+import Product from "./pages/Product/Product";
 import { Products } from "./pages/Products/Products";
 import { Categories } from "./pages/categories/Categories";
+import "./App.css"
+import { Newsletter } from "./components/Newsletter/Newsletter";
 
 
 
@@ -14,6 +16,7 @@ const Layout = () => {
     <div className="app">
       <Navbar />
       <Outlet />
+      <Newsletter />
       <Footer />
     </div>
   );
