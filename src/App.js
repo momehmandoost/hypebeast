@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Home } from "./pages/Home/Home";
 import { Product } from "./pages/Product/Product";
 import { Products } from "./pages/Products/Products";
+import { Categories } from "./pages/categories/Categories";
 
 
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/product/:id",
         element: <Product />,
+      },
+      {
+        path: "/categories/:id",
+        element: <Categories />,
       },
     ],
   },
