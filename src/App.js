@@ -10,6 +10,7 @@ import { Categories } from "./pages/categories/Categories";
 import "./App.css"
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { Signup } from "./pages/Signup/Signup.tsx";
+import { Signin } from "./pages/Signin/Signin.tsx";
 
 
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/signup",
         element: <Signup />,
+      },
+      {
+        path: "/signin",
+        element: <Signin />,
       },
     ],
   },
