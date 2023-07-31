@@ -27,9 +27,12 @@
 @media (max-width: 700px) {
   .bannercontain {
     grid-template-columns: 1fr;
-    padding: 2rem;
-    .desc {
-      width: 90%;
+    overflow: hidden;
+    .brand {
+      padding: 1rem;
+      .desc {
+        width: 90%;
+      }
     }
   }
 }

@@ -18,6 +18,7 @@
     grid-template-rows: 1fr 1fr;
     height: 30rem;
     margin-top: 1.3rem;
+
     .featured {
       cursor: pointer;
       overflow: hidden;
@@ -144,4 +145,20 @@
   object-fit: cover;
   object-position: 50% 50%;
   width: 100%;
+}
+@media screen and (max-width: 760px) {
+  .gallerycontain .grid-container {
+    grid-gap: 13px;
+    display: grid;
+    gap: 13px;
+    grid-template-areas:
+      "one two"
+      "four four-low";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 500px;
+    grid-template-areas:
+      "one two"
+      "four four-low";
+  }
 }

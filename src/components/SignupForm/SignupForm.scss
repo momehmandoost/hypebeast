@@ -1,0 +1,46 @@
+.form {
+  display: grid;
+  justify-content: center;
+  color: black;
+
+  .onefield {
+    font-family: Roboto;
+    font-weight: 300;
+    display: grid;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    .error {
+      margin-top: 1rem;
+      background-color: rgb(255, 122, 122);
+      width: fit-content;
+      color: rgb(120, 3, 3);
+      padding: 0.35rem;
+      border: 2px solid rgb(253, 228, 228);
+      border-radius: 2%;
+    }
+    .label {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .input {
+      width: 26rem;
+      padding: 1rem;
+      border: none;
+    }
+    .submitbtn {
+      padding: 1rem;
+      font-family: Roboto;
+      font-weight: 300;
+      font-size: large;
+      color: white;
+      background-color: #1e2832;
+      border: none;
+    }
+  }
+  .clicksign {
+    margin-left: 8px;
+    color: #1e2832;
+    font-weight: 800;
+  }
+}

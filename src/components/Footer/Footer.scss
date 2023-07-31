@@ -24,8 +24,30 @@
           width: 100%;
           gap: 1rem;
           padding: 1rem 0;
-          color: black;
+          color: white;
+
           justify-content: center;
+          .item {
+            color: white;
+            padding: 0.25rem;
+            border-radius: 20px;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+              background-color: black;
+            }
+          }
+          .item-tweet {
+            background-color: rgb(7, 164, 226);
+          }
+          .item-facebook {
+            background-color: rgb(6, 2, 243);
+          }
+          .item-linkedin {
+            background-color: rgb(3, 7, 69);
+          }
+          .item-insta {
+            background-color: rgb(255, 89, 0);
+          }
         }
       }
       .center {
@@ -68,6 +90,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 730px) {
+  .footercontain {
+    .sec1back {
+      .sec1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        .right {
+          display: none;
+        }
       }
     }
   }

@@ -6,8 +6,12 @@ import { Home } from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import { Products } from "./pages/Products/Products";
 import { Categories } from "./pages/categories/Categories";
+
 import "./App.css"
 import { Newsletter } from "./components/Newsletter/Newsletter";
+import { Signup } from "./pages/Signup/Signup.tsx";
+import { Signin } from "./pages/Signin/Signin.tsx";
+
 
 
 
@@ -42,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: "/categories/:id",
         element: <Categories />,
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
+      },
+      {
+        path: "/signin",
+        element: <Signin />,
       },
     ],
   },

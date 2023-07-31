@@ -21,14 +21,44 @@
       align-items: center;
       justify-content: baseline;
       .account {
+        background-color: #1e2832;
+        color: white;
+        padding: 0.65rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background: var(--black, #53616f);
+          cursor: pointer;
+        }
       }
       .carticon {
+        background-color: #1e2832;
+        color: white;
+        padding: 0.65rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background: var(--black, #53616f);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 760px) {
+  .navcontain {
+    .navbar {
+      display: flex;
+      gap: 2rem;
+
+      .right {
+        display: none;
       }
     }
   }

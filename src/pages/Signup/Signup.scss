@@ -1,0 +1,17 @@
+.signupcontain {
+  padding: 14rem 0 5rem 0;
+  width: 100%;
+  .signup {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+  }
+  .signup:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: #c3c3c3;
+  }
+}
