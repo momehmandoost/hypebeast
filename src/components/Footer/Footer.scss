@@ -72,3 +72,16 @@
     }
   }
 }
+@media screen and (max-width: 730px) {
+  .footercontain {
+    .sec1back {
+      .sec1 {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+        .right {
+          display: none;
+        }
+      }
+    }
+  }
+}
