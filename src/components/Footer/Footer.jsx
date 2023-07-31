@@ -20,10 +20,10 @@ export const Footer = () => {
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </div>
             <div className="social">
-              <TwitterIcon />
-              <FacebookIcon />
-              <LinkedInIcon />
-              <InstagramIcon />
+              <TwitterIcon className="item item-tweet" />
+              <FacebookIcon className="item item-facebook" />
+              <LinkedInIcon className="item item-linkedin" />
+              <InstagramIcon className="item item-insta" />
             </div>
           </div>
           <div className="center">
