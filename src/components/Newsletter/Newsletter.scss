@@ -23,6 +23,12 @@
         font-size: large;
         background-color: white;
         border-bottom: 5px solid black;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background-color: #1e2832;
+          color: white;
+          border-bottom: 5px solid white;
+        }
       }
       button {
         border: none;
@@ -32,6 +38,25 @@
         font-size: large;
         background-color: white;
         border-bottom: 5px solid black;
+        transition: all 0.5s ease-in-out;
+        &:hover {
+          background-color: #1e2832;
+          color: white;
+          border-bottom: 5px solid white;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 760px) {
+  .newlettercontain {
+    .newsletter {
+      h3 {
+      }
+      form {
+        input {
+          width: 20rem;
+        }
       }
     }
   }
