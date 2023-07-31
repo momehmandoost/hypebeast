@@ -18,8 +18,18 @@
     align-items: center;
     .items {
       ul {
+        li {
+          padding: 0.5rem;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            background: var(--black, #d5d9dd);
+            border-radius: 5px;
+          }
+        }
         li.active {
           font-weight: 700;
+          background: var(--black, #d5d9dd);
+          border-radius: 5px;
         }
         font-weight: 400;
         display: flex;
@@ -36,6 +46,10 @@
       align-items: center;
       color: white;
       cursor: pointer;
+      transition: all 0.5s ease-in-out;
+      &:hover {
+        background: var(--black, #53616f);
+      }
     }
   }
   .products {
