@@ -11,6 +11,7 @@ import "./App.css"
 import { Newsletter } from "./components/Newsletter/Newsletter";
 import { Signup } from "./pages/Signup/Signup.tsx";
 import { Signin } from "./pages/Signin/Signin.tsx";
+import { Category } from "./pages/Category/Category";
 
 
 
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/categories/:id",
         element: <Categories />,
+      },
+      {
+        path: "/category/",
+        element: <Category />,
       },
       {
         path: "/signup",

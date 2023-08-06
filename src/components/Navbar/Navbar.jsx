@@ -15,7 +15,7 @@ export const Navbar = () => {
     <div className="navcontain">
       <div className="navbar">
         <div className="left">
-          <SearchIcon />
+          <SearchIcon className="search" />
         </div>
         <div className="center">
           <img src={logo} alt="logo" />
