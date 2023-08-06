@@ -9,11 +9,11 @@ import brand5 from "../../assets/brand/05.png";
 export const Brand = () => {
   return (
     <div className="brandcontain">
-      <img src={brand1} alt="brand1" />
-      <img src={brand2} alt="brand2" />
-      <img src={brand3} alt="brand3" />
-      <img src={brand4} alt="brand4" />
-      <img src={brand5} alt="brand5" />
+      <img className="item" src={brand1} alt="brand1" />
+      <img className="item" src={brand2} alt="brand2" />
+      <img className="item" src={brand3} alt="brand3" />
+      <img className="item" src={brand4} alt="brand4" />
+      <img className="item" src={brand5} alt="brand5" />
     </div>
   );
 };

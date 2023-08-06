@@ -1,0 +1,33 @@
+.categorycontain {
+  width: 100%;
+  .category {
+    width: 80%;
+    margin: auto;
+    padding: 12rem 0 5rem 0;
+    .list {
+      display: flex;
+      justify-content: center;
+      ul {
+        display: flex;
+
+        li {
+          margin: 1rem;
+          padding: 0.5rem;
+          background-color: #1e2832;
+          color: white;
+          font-weight: 400;
+          font-family: Roboto;
+          transition: all 0.5s ease-in-out;
+          &:hover {
+            color: black;
+            background: #cbcbcd;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .cats {
+      
+    }
+  }
+}
